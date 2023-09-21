@@ -5,7 +5,7 @@ from tkinter import font
 window = tk.Tk()
 window.geometry("400x500") #Set the size of the window
 window.title("Wordle.py")
-dir = 'wordle\words.txt'
+dir = 'words.txt'
 file1 = open(dir, "r") #Open the file with the words in it. (The file must be in the same folder as the script.)
 Lines = file1.readlines() #Read list into Lines variable
  
